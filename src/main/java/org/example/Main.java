@@ -15,6 +15,8 @@ class Main {
         System.out.println(--number);
         int a = 166;
         int b = 288;
+        float c=7;
+        System.out.println(a+c);
         System.out.print(a + b);
         System.out.println(a - b);
         System.out.println(a * b);
@@ -38,8 +40,10 @@ class Main {
         System.out.println(a >0 && b>0);
         System.out.println(! true);
         System.out.println(a>0|| b>0);
-
-
+        System.out.printf("%d",(a++)+(--b)-(a+1)+(a+=3)+(++a));
+        System.out.printf("%s",(a++)+(--b)-(a+1)+(a+=3)+(++a));
+        System.out.printf("result: %2.0f",(a++)+(--b)-(a+1)+(a+=3)+(++c));
+        System.out.println(a<b ?"aysu": a>b ?"murad":"tural");
 
     }
 }
