@@ -1,7 +1,7 @@
 package org.example;
 
 public class Day {
-    public static void main(String[] args) {
+    public static void main(StringApp[] args) {
         int a = 80;
         if (a < 40) {
             System.out.println("Failed- One or more exam scores are too low");

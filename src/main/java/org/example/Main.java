@@ -2,7 +2,7 @@ package org.example;
 
 
 class Main {
-    public static void main(String[] args) {
+    public static void main(StringApp[] args) {
         byte number = 1;
         short number2 = 2;
         int number3 = 3;

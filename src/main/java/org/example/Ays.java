@@ -1,9 +1,7 @@
 package org.example;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Ays {
-    public static void main(String[] args) {
+    public static void main(StringApp[] args) {
 
 ////        int ay = 3; // yaz
 ////

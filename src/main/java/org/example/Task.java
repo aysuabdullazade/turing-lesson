@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 public class Task {
     public static void main(String[] args) {
 
@@ -20,23 +18,13 @@ public class Task {
 //        }else{
 //            System.out.println( " Artıq bir gəncsən");
 
-//        for(int i = 0; i < 10; i++) {
-//            {
-//                if (i == 3) {
-//
-//                    System.out.println("true");
-//                } else {
-//                    System.out.println("false");
-
-
-
-        StringBuffer sb = new StringBuffer( " Qarabağ ");
-        sb.append(" Azərbaycandır");
-        sb.append(" Dağlıq ");
-        sb.insert( 0, "Dağlıq");
-        sb.delete(30, sb.length());
-
-        System.out.println(sb);
+        for (int i = 0; i < 10; i++) {
+            if (i == 3) {
+                System.out.println("true");
+            } else {
+                System.out.println("false");
+            }
+        }
     }
 }
 

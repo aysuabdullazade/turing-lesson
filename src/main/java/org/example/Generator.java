@@ -1,7 +1,7 @@
 package org.example;
 
 public class Generator {
-    public static void main(String[] args) {
+    public static void main(StringApp[] args) {
 
         int a = 5;
         for (int i = 1; i <= 10; i++) {

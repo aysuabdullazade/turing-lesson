@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Machine {
-    public static void main(String[] args) {
+    public static void main(StringApp[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         switch (number) {
