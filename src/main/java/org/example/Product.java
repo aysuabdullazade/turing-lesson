@@ -1,12 +1,12 @@
 package org.example;
 
-public class Opp {
+public class Product {
     public String name;
     public double price;
     public String catagory;
     public int stock;
 
-    public Opp(String name, double price, String catagory, int stock) {
+    public Product(String name, double price, String catagory, int stock) {
         this.name = name;
         this.price = price;
         this.catagory = catagory;
@@ -16,18 +16,19 @@ public class Opp {
     }
 
 
+
     public String toString() {
         return "Opp " + name + ", " + price + ", " + catagory + ", " + stock;
 
 
     }
 
-    public double calculatePrice(double percent) {
+    public double discountPrice(double percent) {
         double discount = price * percent / 100;
         return price - discount;
     }
 
-    public boolean isInstock(double price) {
+    public boolean isInStock(double price) {
         return stock > 0;
 
     }
